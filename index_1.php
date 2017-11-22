@@ -10,7 +10,7 @@ and open the template in the editor.
         <title>Test</title>
     </head>
     <body>
-        <p> test </p>
+        <p> test 1</p>
         <ul>
             <li> 1</li>
             <li>2</li>
