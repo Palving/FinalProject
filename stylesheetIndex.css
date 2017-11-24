@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24.nov.2017, 12:31:50
+    Author     : Magnus
+*/
+
+
+body {
+    margin:0;
+    padding:0;
+    background-color:#66B9BF;
+}
+
+
+.meny {
+  list-style-type: none;
+    background-color: #07889B;
+   text-align:center;
+   padding:0;
+   margin:0;
+
+   left: 50%;
+   width:100%;
+   /* Centerer NAV bar om den er position:fixed/absolute =  transform: translate(-50%, 0); */
+  
+  overflow:hidden;
+
+      color:#F7882F;
+       font-family: sans-serif;
+   
+}
+.meny li {
+   display:inline-block; 
+ 
+   padding:25px 0 30px 30px;
+   padding-right:60px;
+   
+  
+   
+}
+.meny a {
+    text-decoration: none;
+    color:white;
+    font-size:50px;
+     font-family: sans-serif;
+    
+}
+
+.tittel {
+    font-size:50px;
+     font-family: sans-serif;
+     color:white;
+     padding-left:380px;
+     padding-top:100px;
+     padding-bottom:50px;
+}
+
+.box1 
+{
+    background-color:white;
+  display:block;
+  
+  width: 500px;
+  height:100px;
+   
+    padding: 100px;
+    margin: 25px 25px 0 170px;
+z-index:-1;
+  
+} 
+
+ 
+
