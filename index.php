@@ -21,15 +21,21 @@ and open the template in the editor.
         <div class="tittel"
              <h1> EncryptPic </h1>
         </div>
+         
+        <div class="content"
              
-        <div class="box1">
+        <div id="box1">
             <p> teksttekstteksttekstteksttekstteksttekstt
                 eksttekstteksttekstteksttekstteksttekst 
                 Bytt farge når tekst er ferdig
             </p>
-        </div>
+        
+        
+        <div id="box2">
+            <p> Bilde av appen </p>
+        
              
-      
+    </div>
         
         
         <?php

@@ -54,24 +54,34 @@ body {
     font-size:50px;
      font-family: sans-serif;
      color:white;
-     padding-left:380px;
-     padding-top:100px;
-     padding-bottom:50px;
+    text-align: center;
+    margin-top:50px;
 }
 
-.box1 
+#box1 
 {
     background-color:white;
   display:block;
   
   width: 500px;
   height:100px;
-   
+  float:left;
     padding: 100px;
     margin: 25px 25px 0 170px;
-z-index:-1;
+
   
 } 
+
+#box2 {
+background-color:white;
+  display:block;
+  float:left;
+  width: 290px;
+  height:380px;
+   float:left;
+    padding: 100px;
+    margin: -173px 25px 0 750px;
+}
 
  
 
