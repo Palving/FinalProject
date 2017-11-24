@@ -14,7 +14,7 @@ and open the template in the editor.
         
         <ul class="meny">
             <li><a href="side">Using the app</a></li>
-           <li><a href="index.php"> <img src="bilder/lock.png" width="100px" height="100px" alt=""/></a></li>
+           <li><a href="index.php"> <img src="bilder/lock.png" width="80px" height="80px" alt=""/></a></li>
           
             <li><a href="side">Download</a></li>
            
