@@ -14,6 +14,8 @@ and open the template in the editor.
         
         <ul class="meny">
             <li><a href="side">Using the app</a></li>
+           <li><a href="index.php"> <img src="bilder/lock.png" width="100px" height="100px" alt=""/></a></li>
+          
             <li><a href="side">Download</a></li>
            
         </ul>
@@ -22,7 +24,7 @@ and open the template in the editor.
              <h1> EncryptPic </h1>
         </div>
          
-        <div class="content"
+        <div class="forside"
              
         <div id="box1">
             <p> teksttekstteksttekstteksttekstteksttekstt
@@ -36,6 +38,15 @@ and open the template in the editor.
         
              
     </div>
+            
+            <h1> (The problem) </h1>
+            <div class="innhold"
+                <div id="box3"> 
+                    <p> tekst</p>
+                 
+                 
+        </div>
+            
         
         
         <?php
