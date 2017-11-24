@@ -34,7 +34,7 @@ and open the template in the editor.
         
         
         <div id="box2">
-            <p> Bilde av appen </p>
+            <img src="bilder/bilde.png" width="540px" height="392px" alt=""/>
         
              
     </div>
