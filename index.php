@@ -7,18 +7,11 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Test1</title>
+        <title></title>
     </head>
     <body>
-        <p> test 1</p>
-        <ul>
-            <li> 1</li>
-            <li>2</li>
-            <li>3</li>
-
-            <form>
-                <button>heheh</button>
-            </form>
-        </ul>
+        <?php
+        // put your code here
+        ?>
     </body>
 </html>
