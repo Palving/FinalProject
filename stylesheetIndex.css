@@ -15,6 +15,29 @@ body {
     background-color:#66B9BF;
 }
 
+.bookmarks {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    position: fixed;
+}
+
+.bookmarks li {
+    padding:5px 0 5px 5px;
+
+}
+
+.bookmarks a {
+    text-decoration: none;
+    color:white;
+    font-size:30px;
+     font-family: sans-serif;
+}
+
+#goto {
+    font-size: 35px;
+   color:orange;
+}
 
 .meny {
   list-style-type: none;
@@ -60,7 +83,7 @@ body {
     margin-left:370px;
 }
 
-#box1 
+#boxIntro 
 {
     background-color:white;
   display:block;
@@ -68,13 +91,14 @@ body {
   width: 500px;
   height:100px;
   float:left;
-    padding: 100px;
-    margin: 25px 25px 0 170px;
+    padding: 10px;
+    margin: 25px 100px 50px 235px;
+   
 
   
 } 
 
-#box2 {
+#boxIntroBilde {
 background-color:white;
   display:block;
   float:left;
@@ -87,13 +111,47 @@ background-color:white;
     margin-bottom:100px;
 }
 
-#box3 {
+#boxProblem {
  
    
     padding: 10px;
     background-color: white;
   
 }
+
+#boxProblemBilde{
+    
+   background-color:white;
+  display:block;
+  float:left;
+  width: 290px;
+  height:380px;
+   float:left;
+  
+    margin: -180px 25px 0 750px;
+    
+    margin-bottom:100px;
+}
+
+#boxSolution {
+    padding: 10px;
+    background-color: white;
+  
+}
+
+#boxSolutionBilde {
+    background-color:white;
+  display:block;
+  float:left;
+  width: 290px;
+  height:380px;
+   float:left;
+  
+    margin: -180px 25px 0 750px;
+    
+    margin-bottom:100px;
+}
+
 
 
 h1 {
