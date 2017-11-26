@@ -8,4 +8,3 @@ box 7?= copyright?
 
 
 
-NB: Paddingen er facked så hver tekst starter i midten av boksen, fikser det senere

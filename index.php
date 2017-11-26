@@ -11,8 +11,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="stylesheetIndex.css">
     </head>
     <body>
-        
-      
+       
         
         <ul class="meny">
             <li><a href="side">Using the app</a></li>
@@ -24,11 +23,10 @@ and open the template in the editor.
         
           <ul class="bookmarks">
               <a id="goto">//Bookmarks</a>
-            <li><a href="http://localhost/FinalProject/index.php#intro">Intro</a>
-                 <li><a href="http://localhost/FinalProject/index.php#problem">The problem</a>
-                 <li><a id="solutionB" href="" onclick="element_to_scroll_to('solution')">The solution</a>
+            <li><a href="#intro">Intro</a>
+                 <li><a href="#problem">The problem</a>
+                 <li><a href="#solution">The solution</a>
         </ul>
-           
         
         <div class="tittel"
              <h1><a id="intro"> EncryptPic</a></h1>
@@ -37,9 +35,8 @@ and open the template in the editor.
         <div class="forside"
              
         <div id="boxIntro">
-            <p> teksttekstteksttekstteksttekstteksttekstt
-                eksttekstteksttekstteksttekstteksttekst 
-                Bytt farge når tekst er ferdig
+            <p> Have you ever been worried that your newly taken photographs gets stored some place you feel like you have no control over?
+            <br><br>With EncryptPic you'll be given a complete oversight over your files' security and location, so you wont have to worry about unwanted eyes taking a peek at your most sensitive material.
             </p>
         
         
@@ -52,11 +49,10 @@ and open the template in the editor.
             <h1><a id="problem"> (The problem)</a></h1>
             <div class="innhold"
                 <div id="boxProblem"> 
-                    <p> teksttekstteksttekstteksttekstteksttekst
-                    tekstteksttekstteksttekstteksttekstteksttekstteksttekst
-                    teksttekstteksttekstteksttekstteksttekstteksttekst
-                    teksttekstteksttekstteksttekstteksttekstteksttekst
-                    teksttekstteksttekstteksttekstteksttekst</p>
+                    <p> In today's society there is a lot of talk about files and sensitive material being hacked, but not enough on how to prevent it. 
+                    This has caused a technological ignorance in the average person on how filestoring and security works. 
+                    The average person uses a fair amount of technology in their daily lives, and they put their trust in their products' basic security measures.
+                    </p>
                  
                  
         </div>
@@ -69,11 +65,10 @@ and open the template in the editor.
                  <h1><a id="solution"> (The solution)</a></h1>
             <div class="innhold"
                 <div id="boxSolution"> 
-                    <p> teksttekstteksttekstteksttekstteksttekst
-                    tekstteksttekstteksttekstteksttekstteksttekstteksttekst
-                    teksttekstteksttekstteksttekstteksttekstteksttekst
-                    teksttekstteksttekstteksttekstteksttekstteksttekst
-                    teksttekstteksttekstteksttekstteksttekst</p>
+                    <p> Our solution provides a safeguard for your files by encrypting them instantly. By encrypting your files, we make it so that they'll only be available to your eyes only, through a password of your choice.
+                        
+                        
+                    </p>
                  
                  
         </div>
@@ -86,6 +81,6 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
-            <script type="text/javascript" src="scroll.js"</script>
+           
     </body>
 </html>
