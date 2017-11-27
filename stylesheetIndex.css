@@ -113,14 +113,14 @@ p {
 }
 
 #boxSolutionBilde {
-  background-color:white;
-  display:block;
-  float:left;
-  width: 290px;
-  height:380px;
-  float:left;
-  margin: -180px 25px 0 750px;
-  margin-bottom:100px;
+    background-color:white;
+    display:block;
+    float:left;
+    width: 290px;
+    height:380px;
+    float:left;
+    margin: -180px 25px 0 750px;
+    margin-bottom:100px;
 }
 
 h1 {

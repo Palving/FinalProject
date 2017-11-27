@@ -5,7 +5,7 @@
 
 <meta charset="UTF-8">
 
-	<title>[EncryptPic]</title>
+	<title>EncryptPic</title>
 
 <link rel="stylesheet" href="stylesheetIndex.css">
 </head>
@@ -29,7 +29,7 @@
     </div>
              
     <div id="boxIntro">
-        <p> Have you ever been worried that your newly taken photographs gets stored some place you feel like you have no control over?
+        <p>Have you ever been worried that your newly taken photographs gets stored some place you feel like you have no control over?
         <br><br>With EncryptPic you'll be given a complete oversight over your files' security and location, so you wont have to worry about unwanted eyes taking a peek at your most sensitive material.
         </p>
 
@@ -43,7 +43,7 @@
 
     <div class="innhold">
         <div id="boxProblem"> 
-           	<p> In today's society there is a lot of talk about files and sensitive material being hacked, but not enough on how to prevent it. 
+           	<p>In today's society there is a lot of talk about files and sensitive material being hacked, but not enough on how to prevent it. 
             This has caused a technological ignorance in the average person on how filestoring and security works. 
             The average person uses a fair amount of technology in their daily lives, and they put their trust in their products' basic security measures.
             </p>        
