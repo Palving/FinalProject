@@ -6,6 +6,7 @@ body {
     margin:0;
     padding:0;
     background-color:#66B9BF;
+    width:100%;
 }
 
 p {
@@ -16,7 +17,8 @@ p {
 
 #bilde {
     position: absolute;
-    margin-right: -100px;
+  
+    
 }
    
 
@@ -68,7 +70,7 @@ p {
     height:100px;
     float:left;
    
-    margin: 25px 100px 50px 5px;
+    margin: 25px 100px 50px 10%;
 } 
 
 
