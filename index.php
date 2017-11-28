@@ -14,7 +14,7 @@
 
     <ul class="meny">
         <li><a href="side">Using the app</a></li>
-        <li><a href="index.php"> <img src="bilder/lock.png" width="80px" height="80px" alt="An image of the logo of EncryptPic."/></a></li>
+        <li><a href="index.php"> <img src="bilder/lock.png" width="60px" height="60px" alt="An image of the logo of EncryptPic."/></a></li>
         <li><a href="side">Download</a></li>  
     </ul>
         
@@ -29,16 +29,22 @@
         </p>
     </div>
      <div id="boxIntroBilde">
-        <img src="bilder/bilde.png" width="540px" height="392px" alt="An image of EncryptPic integrated into the camera app."/> 
+        <img src="bilder/bilde.png" id="bilde" width="540px" height="392px" alt="An image of EncryptPic integrated into the camera app."/> 
    	</div>
     
     
     
     
 <div class="tab">
+<<<<<<< HEAD
     <button class="tablinks" onclick="openTab(event, 'theProblem')" >The Problem</button>
     <button class="tablinks"  onclick="openTab(event, 'theSolution')"<a href="#solution">The Solution</a></button>
     <button class="tablinks"  onclick="openTab(event, 'Conclusion')">Conclusion</button>
+=======
+  <button class="tablinks" onclick="openTab(event, 'theProblem')" >The Problem</button>
+  <button class="tablinks"  onclick="openTab(event, 'theSolution')">The Solution</a></button>
+  <button class="tablinks"  onclick="openTab(event, 'Conclusion')">Conclusion</button>
+>>>>>>> 923570edddb2ac3172c94e25347f4c5499321275
 </div>
 
 <div id="theProblem" class="contentTab">
@@ -68,24 +74,28 @@
     
     <script> 
         function openTab(evt, navn) {
-    // Declare all variables
+    // variabler
     var i, contentTab, tablinks;
 
-    // Get all elements with class="tabcontent" and hide them
+    // henter alle elementer med #contentTab
     contentTab = document.getElementsByClassName("contentTab");
     for (i = 0; i < contentTab.length; i++) {
         contentTab[i].style.display = "none";
     }
 
-    // Get all elements with class="tablinks" and remove the class "active"
+    // henter alle elementer med clas tablinks og fjerner active
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
 
-    // Show the current tab, and add an "active" class to the button that opened the tab
+    // viser tabben man er på, og legger active class på tabben man er på
     document.getElementById(navn).style.display = "block";
     evt.currentTarget.className += " active";
+    
+    // scroller til posisjonen
+    scrollTo(0,1970);
+    
 } 
     </script>
         

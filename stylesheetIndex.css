@@ -6,6 +6,7 @@ body {
     margin:0;
     padding:0;
     background-color:#66B9BF;
+    width:100%;
 }
 
 p {
@@ -14,6 +15,12 @@ p {
     font-size:23px;
 }
 
+#bilde {
+    position: absolute;
+  
+    
+}
+   
 
 
 .meny {
@@ -22,17 +29,17 @@ p {
     text-align:center;
     padding:0;
     margin:0;
-    left: 50%;
-    width:100%;
+   
+    
     /* Centerer NAV bar om den er position:fixed/absolute =  transform: translate(-50%, 0); */ 
-    overflow:hidden;
+  
     color:#F7882F;
     font-family: sans-serif;
 }
 
 .meny li {
-    display:inline-block; 
-    padding:25px 0 30px 30px;
+    display:inline;
+    padding:10px 0 5px 30px;
     padding-right:60px; 
 }
 
@@ -43,33 +50,59 @@ p {
     font-family: sans-serif; 
 }
 
+.meny a:hover {
+  
+    color: black;
+}
+
 .tittel {
     font-size:65px;
     font-family: sans-serif;
     color:white; 
     text-align: left;
     margin-top:50px;
-    margin-left:335px;
+    margin-left:280px;
 }
 
+@media screen and (min-width:1px) and (max-width:1365px) {
 #boxIntro {
     display:block;
     width: 700px;
     height:100px;
     float:left;
    
-    margin: 25px 100px 50px 235px;
+    margin: 25px 100px 50px 5%;
 } 
+}
 
+@media screen and (min-width:1px) and (max-width:1366px) {
+#boxIntro {
+    display:block;
+    width: 700px;
+    height:100px;
+    float:left;
+   
+    margin: 25px 100px 50px 0;
+} 
+}
 
-
+@media screen and (min-width:1367px) {
+#boxIntro {
+    display:block;
+    width: 700px;
+    height:100px;
+    float:left;
+   
+    margin: 25px 100px 50px 10%;
+}
+}
 
 
 #boxProblemBilde{
     background-color:white;
     display:block;
     float:left;
-    width: 290px;
+    width: 10%;
     height:380px;
    
     margin: -180px 25px 0 750px;  
@@ -111,7 +144,7 @@ div.tab {
     background-color: #f1f1f1;
     text-align:center;
   font-family: sans-serif;
-   
+   margin-top:34%;
    
 }
 
