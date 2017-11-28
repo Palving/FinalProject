@@ -29,7 +29,7 @@
         </p>
     </div>
      <div id="boxIntroBilde">
-        <img src="bilder/bilde.png" width="540px" height="392px" alt="An image of EncryptPic integrated into the camera app."/> 
+        <img src="bilder/bilde.png" id="bilde" width="540px" height="392px" alt="An image of EncryptPic integrated into the camera app."/> 
    	</div>
     
     
@@ -37,7 +37,7 @@
     
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'theProblem')" >The Problem</button>
-  <button class="tablinks"  onclick="openTab(event, 'theSolution')"<a href="#solution">The Solution</a></button>
+  <button class="tablinks"  onclick="openTab(event, 'theSolution')">The Solution</a></button>
   <button class="tablinks"  onclick="openTab(event, 'Conclusion')">Conclusion</button>
 </div>
 
