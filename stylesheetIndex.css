@@ -14,6 +14,10 @@ p {
     font-size:23px;
 }
 
+#bilde {
+    position: absolute;
+}
+   
 
 
 .meny {
@@ -25,13 +29,13 @@ p {
     left: 50%;
     width:100%;
     /* Centerer NAV bar om den er position:fixed/absolute =  transform: translate(-50%, 0); */ 
-    overflow:hidden;
+  
     color:#F7882F;
     font-family: sans-serif;
 }
 
 .meny li {
-    display:inline-block; 
+    display:inline;
     padding:25px 0 30px 30px;
     padding-right:60px; 
 }
@@ -41,6 +45,11 @@ p {
     color:white;
     font-size:50px;
     font-family: sans-serif; 
+}
+
+.meny a:hover {
+  
+    color: black;
 }
 
 .tittel {
@@ -111,7 +120,7 @@ div.tab {
     background-color: #f1f1f1;
     text-align:center;
   font-family: sans-serif;
-   
+   margin-top:34%;
    
 }
 

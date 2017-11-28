@@ -72,24 +72,28 @@
   
     <script> 
         function openTab(evt, navn) {
-    // Declare all variables
+    // variabler
     var i, contentTab, tablinks;
 
-    // Get all elements with class="tabcontent" and hide them
+    // henter alle elementer med #contentTab
     contentTab = document.getElementsByClassName("contentTab");
     for (i = 0; i < contentTab.length; i++) {
         contentTab[i].style.display = "none";
     }
 
-    // Get all elements with class="tablinks" and remove the class "active"
+    // henter alle elementer med clas tablinks og fjerner active
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
 
-    // Show the current tab, and add an "active" class to the button that opened the tab
+    // viser tabben man er på, og legger active class på tabben man er på
     document.getElementById(navn).style.display = "block";
     evt.currentTarget.className += " active";
+    
+    // scroller til posisjonen
+    scrollTo(0,1970);
+    
 } 
     </script>
         
