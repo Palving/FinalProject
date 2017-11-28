@@ -64,6 +64,29 @@ p {
     margin-left:280px;
 }
 
+@media screen and (min-width:1px) and (max-width:1365px) {
+#boxIntro {
+    display:block;
+    width: 700px;
+    height:100px;
+    float:left;
+   
+    margin: 25px 100px 50px 5%;
+} 
+}
+
+@media screen and (min-width:1px) and (max-width:1366px) {
+#boxIntro {
+    display:block;
+    width: 700px;
+    height:100px;
+    float:left;
+   
+    margin: 25px 100px 50px 0;
+} 
+}
+
+@media screen and (min-width:1367x){
 #boxIntro {
     display:block;
     width: 700px;
@@ -72,10 +95,7 @@ p {
    
     margin: 25px 100px 50px 10%;
 } 
-
-
-
-
+}
 
 #boxProblemBilde{
     background-color:white;
