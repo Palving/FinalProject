@@ -86,7 +86,7 @@ p {
 } 
 }
 
-
+@media screen and (min-width:1367px) {
 #boxIntro {
     display:block;
     width: 700px;
@@ -94,7 +94,8 @@ p {
     float:left;
    
     margin: 25px 100px 50px 10%;
-} 
+}
+}
 
 
 #boxProblemBilde{
