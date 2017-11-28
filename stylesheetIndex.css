@@ -86,7 +86,7 @@ p {
 } 
 }
 
-@media screen and (min-width:1367x){
+
 #boxIntro {
     display:block;
     width: 700px;
@@ -95,7 +95,7 @@ p {
    
     margin: 25px 100px 50px 10%;
 } 
-}
+
 
 #boxProblemBilde{
     background-color:white;
