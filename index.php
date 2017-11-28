@@ -5,7 +5,7 @@
 
 <meta charset="UTF-8">
 
-	<title>EncryptPic</title>
+    <title>EncryptPic</title>
 
 <link rel="stylesheet" href="stylesheetIndex.css">
 </head>
@@ -19,8 +19,8 @@
         </div>
 
         <ul class="navbaren">
-            <li><a href="index.html#problem">The Security Issue</a></li>
-            <li><a href="index.html#us">About Us</a></li>
+            <li><a href="index.php#problem">The Security Issue</a></li>
+            <li><a href="index.php#us">About Us</a></li>
         </ul>
     </div>
 
@@ -36,52 +36,57 @@
         </div>
     </div>
 </header>
-   
-<div class="tab">
+
+    
+<div class="tab" id="problem">
     <button class="tablinks" onclick="openTab(event, 'theProblem')" >The Problem</button>
-    <button class="tablinks"  onclick="openTab(event, 'theSolution')">The Solution</a></button>
-    <button class="tablinks"  onclick="openTab(event, 'Conclusion')">Conclusion</button>
+    <button class="tablinks" onclick="openTab(event, 'theSolution')"<a href="#solution">The Solution</a></button>
+    <button class="tablinks" onclick="openTab(event, 'Conclusion')">Conclusion</button>
 </div>
 
 <div id="theProblem" class="contentTab">
     <h3> The Problem</h3>
 
     <div id="boxIntro">
-    <p>In today's society there is a lot of talk about files and sensitive material being hacked, but not enough on how to prevent it. 
-
+        <p>In today's society there is a lot of talk about files and sensitive material being hacked, but not enough on how to prevent it. 
         This has caused a technological ignorance in the average person on how filestoring and security works. 
         The average person uses a fair amount of technology in their daily lives, and they put their trust in their products' basic security measures.</p>
-
-        <img class="tab" src="bilder/leak.jpg">
     </div>
+
+    
+        <img class="tab" src="bilder/leak.jpg">
+   
 </div>
 
 <div id="theSolution" class="contentTab">
     <h3>The Solution</h3>
 
     <div id="boxIntro">
-        <p id="solution">Our solution provides a safeguard for your files by encrypting them instantly. By encrypting your files, we make it so that they'll only be available to your eyes only, through a password of your choice.</p> 
-
-        <img src="bilder/bilde.png"> 
+        <p id="solution">Our solution provides a safeguard for your files by encrypting them instantly. By encrypting your files, we make it so that they'll only be available to your eyes only, through a password of your choice.</p>  
     </div>
+
+    <img src="bilder/bilde.png">
 </div>
 
 <div id="Conclusion" class="contentTab">
     <h3>Conclusion</h3>
+    
     <div id="boxIntro">
-    <p>Conclusion...</p>
-</div>
+        <p>Conclusion...</p>
+    </div>
+</div> 
 
+<footer>
 <div class="footer-main" id="us">
     <div class="fot">
         <h2>About us</h2>
         <p>Made by s326293, s326279 and s326302 s</p>
-    </div>
-        
-</div> 
-    
-    <script> 
-        function openTab(evt, navn) {
+    </div>  
+</div></div>
+</footer>
+
+<script> 
+    function openTab(evt, navn) {
     // variabler
     var i, contentTab, tablinks;
 
@@ -100,14 +105,9 @@
     // viser tabben man er på, og legger active class på tabben man er på
     document.getElementById(navn).style.display = "block";
     evt.currentTarget.className += " active";
-    
-    // scroller til posisjonen
     scrollTo(0,1970);
-    
-} 
-    </script>
-        
-   
-   
+    } 
+</script>        
+</div>  
 </body>
 </html>
