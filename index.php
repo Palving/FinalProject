@@ -14,7 +14,7 @@
 
     <ul class="meny">
         <li><a href="side">Using the app</a></li>
-        <li><a href="index.php"> <img src="bilder/lock.png" width="80px" height="80px" alt="An image of the logo of EncryptPic."/></a></li>
+        <li><a href="index.php"> <img src="bilder/lock.png" width="60px" height="60px" alt="An image of the logo of EncryptPic."/></a></li>
         <li><a href="side">Download</a></li>  
     </ul>
         

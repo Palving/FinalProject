@@ -16,6 +16,7 @@ p {
 
 #bilde {
     position: absolute;
+    margin-right: -100px;
 }
    
 
@@ -26,8 +27,8 @@ p {
     text-align:center;
     padding:0;
     margin:0;
-    left: 50%;
-    width:100%;
+   
+    
     /* Centerer NAV bar om den er position:fixed/absolute =  transform: translate(-50%, 0); */ 
   
     color:#F7882F;
@@ -36,7 +37,7 @@ p {
 
 .meny li {
     display:inline;
-    padding:25px 0 30px 30px;
+    padding:10px 0 5px 30px;
     padding-right:60px; 
 }
 
@@ -58,7 +59,7 @@ p {
     color:white; 
     text-align: left;
     margin-top:50px;
-    margin-left:335px;
+    margin-left:280px;
 }
 
 #boxIntro {
@@ -67,7 +68,7 @@ p {
     height:100px;
     float:left;
    
-    margin: 25px 100px 50px 235px;
+    margin: 25px 100px 50px 5px;
 } 
 
 
