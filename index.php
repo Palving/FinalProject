@@ -11,40 +11,36 @@
 </head>
  
 <body>
+<header>
+    <div class="row">
+        <div class="logo">
+            <a href="index.php">
+            <img src="bilder/lock.png" alt="EncryptPic logo">
+        </div>
 
-    <ul class="meny">
-        <li><a href="side">Using the app</a></li>
-        <li><a href="index.php"> <img src="bilder/lock.png" width="60px" height="60px" alt="An image of the logo of EncryptPic."/></a></li>
-        <li><a href="side">Download</a></li>  
-    </ul>
-        
-    <div class="tittel">
-        <h1><a id="intro"> EncryptPic</a></h1>
-        
+        <ul class="navbaren">
+            <li><a href="index.html#problem">The Security Issue</a></li>
+            <li><a href="index.html#us">About Us</a></li>
+        </ul>
     </div>
-             
-    <div id="boxIntro">
+
+    <div class="hehe">
+        <h1>EncryptPic</h1>
         <p>Have you ever been worried that your newly taken photographs gets stored some place you feel like you have no control over?
         <br><br>With EncryptPic you'll be given a complete oversight over your files' security and location, so you wont have to worry about unwanted eyes taking a peek at your most sensitive material.
         </p>
+
+        <div class="store">
+            <a href="https://itunes.apple.com/no/genre/ios/id36?mt=8"><img src="bilder/as.png"></a>
+            <a href="https://play.google.com/store"><img src="bilder/ps.png"></a>
+        </div>
     </div>
-     <div id="boxIntroBilde">
-        <img src="bilder/bilde.png" id="bilde" width="540px" height="392px" alt="An image of EncryptPic integrated into the camera app."/> 
-   	</div>
-    
-    
-    
-    
+</header>
+   
 <div class="tab">
-<<<<<<< HEAD
     <button class="tablinks" onclick="openTab(event, 'theProblem')" >The Problem</button>
-    <button class="tablinks"  onclick="openTab(event, 'theSolution')"<a href="#solution">The Solution</a></button>
+    <button class="tablinks"  onclick="openTab(event, 'theSolution')">The Solution</a></button>
     <button class="tablinks"  onclick="openTab(event, 'Conclusion')">Conclusion</button>
-=======
-  <button class="tablinks" onclick="openTab(event, 'theProblem')" >The Problem</button>
-  <button class="tablinks"  onclick="openTab(event, 'theSolution')">The Solution</a></button>
-  <button class="tablinks"  onclick="openTab(event, 'Conclusion')">Conclusion</button>
->>>>>>> 923570edddb2ac3172c94e25347f4c5499321275
 </div>
 
 <div id="theProblem" class="contentTab">
@@ -55,6 +51,8 @@
 
         This has caused a technological ignorance in the average person on how filestoring and security works. 
         The average person uses a fair amount of technology in their daily lives, and they put their trust in their products' basic security measures.</p>
+
+        <img class="tab" src="bilder/leak.jpg">
     </div>
 </div>
 
@@ -62,7 +60,9 @@
     <h3>The Solution</h3>
 
     <div id="boxIntro">
-        <p id="solution">Our solution provides a safeguard for your files by encrypting them instantly. By encrypting your files, we make it so that they'll only be available to your eyes only, through a password of your choice.</p>  
+        <p id="solution">Our solution provides a safeguard for your files by encrypting them instantly. By encrypting your files, we make it so that they'll only be available to your eyes only, through a password of your choice.</p> 
+
+        <img src="bilder/bilde.png"> 
     </div>
 </div>
 
@@ -70,6 +70,14 @@
     <h3>Conclusion</h3>
     <div id="boxIntro">
     <p>Conclusion...</p>
+</div>
+
+<div class="footer-main" id="us">
+    <div class="fot">
+        <h2>About us</h2>
+        <p>Made by s326293, s326279 and s326302 s</p>
+    </div>
+        
 </div> 
     
     <script> 
