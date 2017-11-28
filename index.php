@@ -15,7 +15,7 @@
     <div class="row">
         <div class="logo">
             <a href="index.php">
-            <img src="bilder/lock.png" alt="EncryptPic logo">
+            <img src="bilder/logo.png" alt="EncryptPic logo">
         </div>
 
         <ul class="navbaren">
@@ -54,7 +54,7 @@
     </div>
 
     
-        <img class="tab" src="bilder/leak.jpg">
+        <img class="tab" src="bilder/leak.jpg" width="600px">
    
 </div>
 
@@ -105,7 +105,7 @@
     // viser tabben man er på, og legger active class på tabben man er på
     document.getElementById(navn).style.display = "block";
     evt.currentTarget.className += " active";
-    scrollTo(0,1970);
+    scrollTo(0,500);
     } 
 </script>        
 </div>  
