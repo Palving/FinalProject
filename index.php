@@ -64,7 +64,7 @@
     <h3>The Solution</h3>
 
     <div id="boxIntro">
-        <p id="solution">Our solution provides a safeguard for your files by encrypting them instantly. By encrypting your files, we make it so that they'll only be available to your eyes only, through a password of your choice.</p>  
+        <p id="solution">Our solution provides a safeguard for your files by encrypting them instantly. By encrypting your files, we make it so that they'll only be available to your eyes only, through a password of your choice.</p> 
     </div>
 
     <div class="bilderTab"> 

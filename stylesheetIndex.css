@@ -225,10 +225,6 @@ h3 {
 }
 
 
-p {
-    color: white;
-}
-
 .nav {
     margin-right: 1vw;
 }
@@ -280,6 +276,7 @@ p {
 
 .bilderTab img {
     max-width: 33vw;
+    margin-top: 50px;
 }
 
 h3:after { 
