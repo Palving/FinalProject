@@ -52,7 +52,14 @@
     <div id="boxIntro">
         <p>In today's society there is a lot of talk about files and sensitive material being hacked, but not enough on how to prevent it. 
         This has caused a technological ignorance in the average person on how filestoring and security works. 
-        The average person uses a fair amount of technology in their daily lives, and they put their trust in their products' basic security measures.</p>
+        The average person uses a fair amount of technology in their daily lives, and they put their trust in their products' basic security measures.
+        With the increased amount we rely and depend on technology devices, we have made ourselves more vulnerable to attacks.
+        Many people leaves the security issue solely with their devices' security, but in most cases that wont be enough. A lack of actively being aware of your cyber-security is a common theme among most people, because they believe they are safe.
+        <br><br>
+        The average person and how they dealt with this security-issue was our main focus regarding this problem. Over the years we've seen countless young people (15-30) getting their personal photos and files leaked by hackers.
+        We believe this is simply due to a lack of awareness regarding your security. People store their photos in the cloud without a second thought and believe they are safely stored. 
+        
+        </p>
     </div>
 
     <div class="bilderTab">
@@ -64,7 +71,8 @@
     <h3>The Solution</h3>
 
     <div id="boxIntro">
-        <p id="solution">Our solution provides a safeguard for your files by encrypting them instantly. By encrypting your files, we make it so that they'll only be available to your eyes only, through a password of your choice.</p> 
+        <p id="solution">Our goal is through our app to slowly but surely introduce people to the idea of securing and encrypting your files. By inserting an option to encrypt photos on the spot in the camera app, users will gain a familiarity to the process of encryption.
+        We believe that the majority of people choose to live in a technological ignorance, rather than try to learn about encryption, a concept they believe is far too advanced and technological.</p> 
     </div>
 
     <div class="bilderTab"> 
@@ -109,7 +117,7 @@
     // viser tabben man er på, og legger active class på tabben man er på
     document.getElementById(navn).style.display = "block";
     evt.currentTarget.className += " active";
-    scrollTo(0,500);
+    scrollTo(0,880);
     } 
 </script>        
 </div>  
