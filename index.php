@@ -18,10 +18,12 @@
             <img src="bilder/logo.png" alt="EncryptPic logo">
         </div>
 
-        <ul class="navbaren">
-            <li><a href="index.php#problem">The Security Issue</a></li>
-            <li><a href="index.php#us">About Us</a></li>
-        </ul>
+        <div class="nav">
+        	<ul class="navbaren">
+            	<li><a href="index.php#problem">The Security Issue</a></li>
+            	<li><a href="index.php#us">About Us</a></li>
+        	</ul>
+        </div>
     </div>
 
     <div class="hehe">
@@ -53,9 +55,9 @@
         The average person uses a fair amount of technology in their daily lives, and they put their trust in their products' basic security measures.</p>
     </div>
 
-    
-        <img class="tab" src="bilder/leak.jpg" width="600px">
-   
+    <div class="bilderTab">
+        <img src="bilder/leak.jpg">
+    </div>  
 </div>
 
 <div id="theSolution" class="contentTab">
@@ -65,7 +67,9 @@
         <p id="solution">Our solution provides a safeguard for your files by encrypting them instantly. By encrypting your files, we make it so that they'll only be available to your eyes only, through a password of your choice.</p>  
     </div>
 
-    <img src="bilder/bilde.png">
+    <div class="bilderTab"> 
+    	<img src="bilder/bilde.png">
+    </div>
 </div>
 
 <div id="Conclusion" class="contentTab">
@@ -80,7 +84,7 @@
 <div class="footer-main" id="us">
     <div class="fot">
         <h2>About us</h2>
-        <p>Made by s326293, s326279 and s326302 s</p>
+        <p>Made by s326293, s326279 and s326302.</p>
     </div>  
 </div></div>
 </footer>

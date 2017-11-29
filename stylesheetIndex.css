@@ -229,10 +229,13 @@ p {
     color: white;
 }
 
+.nav {
+    margin-right: 1vw;
+}
 
 .navbaren {
     list-style: none;
-    margin-top: 30px;
+    margin-top: 0.111vh;
     float: right;
 }
 
@@ -246,7 +249,7 @@ p {
 .navbaren li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.8vh;
+    font-size: 1.9vh;
     font-weight: bold;
 }
 
@@ -257,11 +260,11 @@ p {
 
 
 .logo img {
-    height: 250px;
-    width:250px;
+    height: 220px;
+    width:220px;
     float: left;
     margin-top: 25px;
-    margin-left:-130px;
+    margin-bottom: 50px;
 }
 
 
@@ -272,13 +275,12 @@ p {
 
 .img img {
     border-radius: 12px;
+    position: absolute;
 }
 
-
-.tab img {
-    width: 1vw;
+.bilderTab img {
+    max-width: 33vw;
 }
-
 
 h3:after { 
     width: 100px;
