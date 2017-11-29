@@ -225,14 +225,13 @@ h3 {
 }
 
 
-p {
-    color: white;
+.nav {
+    margin-right: 1vw;
 }
-
 
 .navbaren {
     list-style: none;
-    margin-top: 30px;
+    margin-top: 0.111vh;
     float: right;
 }
 
@@ -246,7 +245,7 @@ p {
 .navbaren li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.8vh;
+    font-size: 1.9vh;
     font-weight: bold;
 }
 
@@ -257,14 +256,18 @@ p {
 
 
 .logo img {
-    height: 250px;
-    width:250px;
+    height: 220px;
+    width:220px;
     float: left;
     margin-top: 25px;
+<<<<<<< HEAD
     margin-left:-130px;
 	color: #33ffff;
     position: fixed/absolute; 	
 	
+=======
+    margin-bottom: 50px;
+>>>>>>> 5c5f37fd8e8774340c86653e59961f96129b01c0
 }
 
 
@@ -275,13 +278,13 @@ p {
 
 .img img {
     border-radius: 12px;
+    position: absolute;
 }
 
-
-.tab img {
-    width: 1vw;
+.bilderTab img {
+    max-width: 33vw;
+    margin-top: 50px;
 }
-
 
 h3:after { 
     width: 100px;
