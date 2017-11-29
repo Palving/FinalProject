@@ -19,7 +19,7 @@ p {
 
 
 #bilde {
-    position: absolute;   
+    position: fixed/absolute;   
 }
 
    
@@ -262,6 +262,9 @@ p {
     float: left;
     margin-top: 25px;
     margin-left:-130px;
+	color: #33ffff;
+    position: fixed/absolute; 	
+	
 }
 
 
