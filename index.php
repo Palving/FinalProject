@@ -50,20 +50,25 @@
     <h3> The Problem</h3>
 
     <div id="boxIntro">
-        <p>In today's society there is a lot of talk about files and sensitive material being hacked, but not enough on how to prevent it. 
-        This has caused a technological ignorance in the average person on how filestoring and security works. 
-        The average person uses a fair amount of technology in their daily lives, and they put their trust in their products' basic security measures.
-        With the increased amount we rely and depend on technology devices, we have made ourselves more vulnerable to attacks.
-        Many people leaves the security issue solely with their devices' security, but in most cases that wont be enough. A lack of actively being aware of your cyber-security is a common theme among most people, because they believe they are safe.
-        <br><br>
-        The average person and how they dealt with this security-issue was our main focus regarding this problem. Over the years we've seen countless young people (15-30) getting their personal photos and files leaked by hackers.
-        We believe this is simply due to a lack of awareness regarding your security. People store their photos in the cloud without a second thought and believe they are safely stored. 
+        <p>With the increase of technology in our lives, the challenges increases aswell.  
+            In today's society there is a lot of talk about files being hacked and leaked, yet there is not enough talk about how to prevent it. 
+            Most people dont ever think they'll be a victim of being hacked, yet these people get their devices compromised every day.
+            With the lack of indepth coverage and educating on securing your personal and sensitive files, there has been created a technological ignorance among the majority of people.
+            These people who does not take that extra step for security,  rely solely on their devices' default security measure, and believe thats enough. And it is, in most cases.  
+            <br><br>
+            Though there are cases it is not enough. Over the years, the amount of leaked photographs and files have grown heavily, and most of these could have been prevented with the correct know-how.
+            Basically the problem boils down to a lack of information spread on security. 
+            <br><br>
+        There exists simple methods to ensure your files' security, though there is a lot of people with a preconceived notion that the process is far too advanced and complicated. 
+        Since most devices doesn't have easily accessible functions for providing additional security, most people go on without them. The lack of these accessible security functions is where we provide our solution, through encryption.
+
         
         </p>
     </div>
 
     <div class="bilderTab">
         <img src="bilder/leak.jpg">
+        
     </div>  
 </div>
 
@@ -71,13 +76,20 @@
     <h3>The Solution</h3>
 
     <div id="boxIntro">
-        <p id="solution">Our goal is through our app to slowly but surely introduce people to the idea of securing and encrypting your files. By inserting an option to encrypt photos on the spot in the camera app, users will gain a familiarity to the process of encryption.
-        We believe that the majority of people choose to live in a technological ignorance, rather than try to learn about encryption, a concept they believe is far too advanced and technological.</p> 
+        <p id="solution"> Our goal is through our app to slowly but surely introduce people to the idea of securing and encrypting your files.
+            By inserting an option to encrypt photos on the spot in the camera app, users will gain a familiarity to the process of encryption.
+            We believe the demand for additional security will keep on growing along technological develepment, and by teaching people about encryption and other  security options, hopefully it'll prevent attacks. 
+            <br><br>
+What our app does is it gives the user more security-options when dealing with files and photographs.  We aim to make it as easily accessible as possible, by using the devices' interface and inserting options to encrypt wherever needed.
+        <br><br>
+       </p> 
     </div>
 
     <div class="bilderTab"> 
     	<img src="bilder/bilde.png">
+       <img id="encrypt" width="540px" height="392px" src="bilder/encrypt.png" alt=""/>
     </div>
+     
 </div>
 
 <div id="Conclusion" class="contentTab">
