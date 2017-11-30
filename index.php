@@ -82,6 +82,7 @@
             <br><br>
 What our app does is it gives the user more security-options when dealing with files and photographs.  We aim to make it as easily accessible as possible, by using the devices' interface and inserting options to encrypt wherever needed.
         <br><br>
+        
        </p> 
     </div>
 
@@ -108,6 +109,10 @@ What our app does is it gives the user more security-options when dealing with f
     </div>  
 </div></div>
 </footer>
+    
+<script>
+   
+</script>
 
 <script> 
     function openTab(evt, navn) {
@@ -129,7 +134,10 @@ What our app does is it gives the user more security-options when dealing with f
     // viser tabben man er på, og legger active class på tabben man er på
     document.getElementById(navn).style.display = "block";
     evt.currentTarget.className += " active";
-    scrollTo(0,880);
+    
+    window.scroll({ top: 800, left: 0, behavior: 'smooth' });
+
+   
     } 
 </script>        
 </div>  

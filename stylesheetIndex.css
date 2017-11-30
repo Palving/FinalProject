@@ -5,7 +5,7 @@
 body {
     margin:0;
     padding:0;
-    background-color:#66B9BF;
+    background-color:#336699;
     width:100%;
 }
 
@@ -183,7 +183,7 @@ div.tab button.active {
 
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("bilder/bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("bilder/2.png");
     height: 90vh;
     background-position: center;
     background-size: cover;
@@ -194,7 +194,7 @@ h1 {
     color: #fff;
     font-size: 4vh;
     font-style:black;
-    font-weight: ;
+   
     font-family: 'Lato';
 }
 
@@ -291,7 +291,7 @@ h3:after {
 
 .footer-main {
     display: flex;
-    background-color: #07889B;
+    background-color: #66CCFF;
     color: #fff;
     margin:0 auto 0 auto;
 
