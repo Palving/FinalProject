@@ -41,9 +41,9 @@
 
     
 <div class="tab" id="problem">
-    <button class="tablinks" onclick="openTab(event, 'theProblem')" >The Problem</button>
-    <button class="tablinks" onclick="openTab(event, 'theSolution')"<a href="#solution">The Solution</a></button>
-    <button class="tablinks" onclick="openTab(event, 'Conclusion')">Conclusion</button>
+    <button class="tablinks" onclick="openTab(event, 'theProblem')" >The Security Issue</button>
+    <button class="tablinks" onclick="openTab(event, 'theSolution')"<a href="#solution"></a>Our Approach to the Issue</button>
+   
 </div>
 
 <div id="theProblem" class="contentTab">
@@ -64,6 +64,7 @@
 
         
         </p>
+        <a class="toTop" onclick="toTop()" href="javascript:void(null);"><br>To the top</a>
     </div>
 
     <div class="bilderTab">
@@ -81,9 +82,17 @@
             We believe the demand for additional security will keep on growing along technological develepment, and by teaching people about encryption and other  security options, hopefully it'll prevent attacks. 
             <br><br>
 What our app does is it gives the user more security-options when dealing with files and photographs.  We aim to make it as easily accessible as possible, by using the devices' interface and inserting options to encrypt wherever needed.
+Although our app is mainly focused on providing security to photograps, we aim to cover all aspects of cyber-security. With everything from intrusive pop-ups, unsafe links and general malware.
+<br><br>
+People should not fear for their security on their devices, though a healthy skepticism when dealing with technology is always good.
+Our goal is not to limit your user experience, but rather make your user experience safer.
+One of the most frequent questions we got was, "So I shouldn't store my files in the cloud anymore?".
+Storing in the cloud is completely safe, as long as you have the files secured and encrypted beforehand. The cloud might be hacked, but people will not be able to view the content without your password. 
+
         <br><br>
         
        </p> 
+       <a class="toTop" onclick="toTop()" href="javascript:void(null);"><br>To the top</a>
     </div>
 
     <div class="bilderTab"> 
@@ -93,11 +102,9 @@ What our app does is it gives the user more security-options when dealing with f
      
 </div>
 
-<div id="Conclusion" class="contentTab">
-    <h3>Conclusion</h3>
+
     
-    <div id="boxIntro">
-        <p>Conclusion...</p>
+   
     </div>
 </div> 
 
@@ -111,10 +118,15 @@ What our app does is it gives the user more security-options when dealing with f
 </footer>
     
 <script>
-   
+   function toTop()
+   {
+      window.scroll({ top: 800, left: 0, behavior: 'smooth' }); 
+   }
 </script>
 
+
 <script> 
+    // tabs
     function openTab(evt, navn) {
     // variabler
     var i, contentTab, tablinks;
