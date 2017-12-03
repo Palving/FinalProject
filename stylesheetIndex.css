@@ -66,7 +66,7 @@ p::first-letter {
         width: 700px;
         height:100px;
         float:left;
-        margin: 25px 100px 50px 0;
+        margin: 25px 100px 50px 5%;
     } 
 }
 
@@ -159,7 +159,7 @@ div.tab button.active {
 /* Style the tab content */
 .contentTab {
     display: none;
-    padding: 6px 12px 25%;
+    padding: 6px 12px 40%;
     border-top: none;
   
     

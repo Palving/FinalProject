@@ -50,7 +50,7 @@
     <h3> The Problem</h3>
 
     <div id="boxIntro">
-        <p>With the increase of technology in our lives, the challenges increases aswell.  
+        <p>With the increase of technology in our lives, the challenges increases as well.  
             In today's society there is a lot of talk about files being hacked and leaked, yet there is not enough talk about how to prevent it. 
             Most people dont ever think they'll be a victim of being hacked, yet these people get their devices compromised every day.
             With the lack of indepth coverage and educating on securing your personal and sensitive files, there has been created a technological ignorance among the majority of people.
@@ -60,7 +60,7 @@
             Basically the problem boils down to a lack of information spread on security. 
             <br><br>
         There exists simple methods to ensure your files' security, though there is a lot of people with a preconceived notion that the process is far too advanced and complicated. 
-        Since most devices doesn't have easily accessible functions for providing additional security, most people go on without them. The lack of these accessible security functions is where we provide our solution, through encryption.
+        Since most devices doesn't have easily accessible functions for providing additional security, most people go on without them. The lack of these easily accessible security functions is where we provide our solution, through encryption.
 
         
         </p>
@@ -82,14 +82,15 @@
             We believe the demand for additional security will keep on growing along technological develepment, and by teaching people about encryption and other  security options, hopefully it'll prevent attacks. 
             <br><br>
 What our app does is it gives the user more security-options when dealing with files and photographs.  We aim to make it as easily accessible as possible, by using the devices' interface and inserting options to encrypt wherever needed.
-Although our app is mainly focused on providing security to photograps, we aim to cover all aspects of cyber-security. With everything from intrusive pop-ups, unsafe links and general malware.
+Although our app is mainly focused on providing security to photograps, we aim to cover all aspects of cyber-security. With everything from intrusive pop-ups, unsafe links and general malware. 
+When installed you'll be given a list of options which you can choose for security. For example, upon installation, you can go with the default option which is to encrypt every photograph and saved files instantly. You'll chose the encryption-type and password, and chose where to store them.
+Examples of additional options within the app would be to encrypt every file you upload to the cloud or things like ad/pop-up blockers. 
 <br><br>
 People should not fear for their security on their devices, though a healthy skepticism when dealing with technology is always good.
-Our goal is not to limit your user experience, but rather make your user experience safer.
-One of the most frequent questions we got was, "So I shouldn't store my files in the cloud anymore?".
-Storing in the cloud is completely safe, as long as you have the files secured and encrypted beforehand. The cloud might be hacked, but people will not be able to view the content without your password. 
+Our goal is not to limit your user experience, but rather make your user experience safer. By using our app we hope most people will start thinking about general security regarding their choices on the internet, and become more aware of possible threats roaming the internet. 
 
-        <br><br>
+
+        <br>
         
        </p> 
        <a class="toTop" onclick="toTop()" href="javascript:void(null);"><br>To the top</a>
