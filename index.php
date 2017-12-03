@@ -14,7 +14,7 @@
 <header>
     <div class="row">
         <div class="logo">
-            <a href="index.php">
+            <a href="index.php"</a>
             <img src="bilder/logo.png" alt="EncryptPic logo">
         </div>
 
@@ -33,8 +33,8 @@
         </p>
 
         <div class="store">
-            <a href="https://itunes.apple.com/no/genre/ios/id36?mt=8"><img src="bilder/as.png"></a>
-            <a href="https://play.google.com/store"><img src="bilder/ps.png"></a>
+            <a href="https://itunes.apple.com/no/genre/ios/id36?mt=8"><img alt='ItunesLink' src="bilder/as.png"></a>
+            <a href="https://play.google.com/store"><img alt='GoogleStoreLink' src="bilder/ps.png"></a>
         </div>
     </div>
 </header>
@@ -47,9 +47,9 @@
 </div>
 
 <div id="theProblem" class="contentTab">
-    <h3> The Problem</h3>
+    <h3>Not securing your files is a problem</h3>
 
-    <div id="boxIntro">
+    <div class="boxIntro">
         <p>With the increase of technology in our lives, the challenges increases as well.  
             In today's society there is a lot of talk about files being hacked and leaked, yet there is not enough talk about how to prevent it. 
             Most people dont ever think they'll be a victim of being hacked, yet these people get their devices compromised every day.
@@ -68,7 +68,7 @@
     </div>
 
     <div class="bilderTab">
-        <img src="bilder/leak.jpg">
+        <img alt='problemBilde' src="bilder/leak.jpg">
         
     </div>  
 </div>
@@ -76,7 +76,7 @@
 <div id="theSolution" class="contentTab">
     <h3>The Solution</h3>
 
-    <div id="boxIntro">
+    <div class="boxIntro">
         <p id="solution"> Our goal is through our app to slowly but surely introduce people to the idea of securing and encrypting your files.
             By inserting an option to encrypt photos on the spot in the camera app, users will gain a familiarity to the process of encryption.
             We believe the demand for additional security will keep on growing along technological develepment, and by teaching people about encryption and other  security options, hopefully it'll prevent attacks. 
@@ -97,8 +97,8 @@ Our goal is not to limit your user experience, but rather make your user experie
     </div>
 
     <div class="bilderTab"> 
-    	<img src="bilder/bilde.png">
-       <img id="encrypt" width="540px" height="392px" src="bilder/encrypt.png" alt=""/>
+    	<img alt='KameraEksempel' src="bilder/bilde.png">
+       <img alt='EncryptEksempel' id="encrypt" width="540px" height="392px" src="bilder/encrypt.png" alt=""/>
     </div>
      
 </div>

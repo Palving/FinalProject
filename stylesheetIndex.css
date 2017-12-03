@@ -50,7 +50,7 @@ p::first-letter {
 
 
 @media screen and (min-width:1px) and (max-width:1365px) {
-    #boxIntro {
+    .boxIntro {
         display:block;
         width: 700px;
         height:100px;
@@ -61,7 +61,7 @@ p::first-letter {
 
 
 @media screen and (min-width:1px) and (max-width:1366px) {
-    #boxIntro {
+    .boxIntro {
         display:block;
         width: 700px;
         height:100px;
@@ -72,7 +72,7 @@ p::first-letter {
 
 
 @media screen and (min-width:1367px) {
-    #boxIntro {
+    .boxIntro {
         display:block;
         width: 700px;
         height:100px;
