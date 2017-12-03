@@ -47,7 +47,7 @@
 </div>
 
 <div id="theProblem" class="contentTab">
-    <h3>Not securing your files is a problem</h3>
+    <h3>The Challenge Of Securing Your Files</h3>
 
     <div class="boxIntro">
         <p>With the increase of technology in our lives, the challenges increases as well.  
@@ -74,7 +74,7 @@
 </div>
 
 <div id="theSolution" class="contentTab">
-    <h3>The Solution</h3>
+    <h3>Our Solution</h3>
 
     <div class="boxIntro">
         <p id="solution"> Our goal is through our app to slowly but surely introduce people to the idea of securing and encrypting your files.

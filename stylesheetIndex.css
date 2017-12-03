@@ -21,13 +21,37 @@ p::first-letter {
  
 }
 
-#encrypt
+
+@media screen and (min-width:1px) and (max-width:1365px) {
+    #encrypt
+
+{
+   max-width: 33vw;
+    margin-top: 50px;
+    margin-left:110vh;
+    margin-bottom:-35vh;
+}
+}
+@media screen and (min-width:1px) and (max-width:1366px) {
+    #encrypt
+
+{
+   max-width: 33vw;
+    margin-top: 50px;
+    margin-left:110vh;
+    margin-bottom:-35vh;
+}
+}
+
+@media screen and (min-width:1367px) {
+    #encrypt
 
 {
    max-width: 33vw;
     margin-top: 50px;
     margin-left:102vh;
     margin-bottom:-35vh;
+}
 }
 
 .toTop
@@ -298,7 +322,7 @@ h3:after {
 
 .footer-main {
     display: flex;
-    background-color: #66CCFF;
+    background-color: #003366;
     color: #fff;
     margin:0 auto 0 auto;
 
@@ -306,7 +330,7 @@ h3:after {
 
 
 .fot {
-    padding: 20px;
+    padding: 1px;
 }
 
 
