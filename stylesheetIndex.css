@@ -25,12 +25,8 @@ p::first-letter {
 @media screen and (min-width:1px) and (max-width:1365px) {
     #encrypt
 
-{   
-    margin-right: 80px;
-    display: block;
-    max-width: 540px;
-    overflow: hidden;
-    max-width: 33vw;
+{
+   max-width: 33vw;
     margin-top: 50px;
     margin-left:110vh;
     margin-bottom:-35vh;
@@ -39,13 +35,10 @@ p::first-letter {
 @media screen and (min-width:1px) and (max-width:1366px) {
     #encrypt
 
-{   
-    margin-right: 80px;
-    display: block;
-    max-width: 540px;
-    overflow: hidden;
-    max-width: 33vw;
+{
+   max-width: 33vw;
     margin-top: 50px;
+    margin-left:110vh;
     margin-bottom:-35vh;
 }
 }
@@ -53,12 +46,10 @@ p::first-letter {
 @media screen and (min-width:1367px) {
     #encrypt
 
-{   
-    margin-right: 400px;
-    display: block;
-    max-width: 33vw;
-    overflow: hidden;
+{
+   max-width: 33vw;
     margin-top: 50px;
+    margin-left:120vh;
     margin-bottom:-35vh;
 }
 }
@@ -281,9 +272,9 @@ h3 {
     float: left;
     margin-top: 25px;
     margin-left: 0px;
-	color: #33ffff;
+    color: #33ffff;
    
-	
+    
 
     margin-bottom: 50px;
 
@@ -300,16 +291,9 @@ h3 {
     position: absolute;
 }
 
-.bilderTab {
-    float: right;
-}
-
 
 .bilderTab img {
-    margin-right: 80px;:;
-    display: block;
-    max-width: 540px;
-    overflow: hidden;
+    max-width: 33vw;
     margin-top: 50px;
 }
 
