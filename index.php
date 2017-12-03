@@ -14,7 +14,7 @@
 <header>
     <div class="row">
         <div class="logo">
-            <a href="index.php">
+            <a href="index.php"</a>
             <img src="bilder/logo.png" alt="EncryptPic logo">
         </div>
 
@@ -33,50 +33,79 @@
         </p>
 
         <div class="store">
-            <a href="https://itunes.apple.com/no/genre/ios/id36?mt=8"><img src="bilder/as.png"></a>
-            <a href="https://play.google.com/store"><img src="bilder/ps.png"></a>
+            <a href="https://itunes.apple.com/no/genre/ios/id36?mt=8"><img alt='ItunesLink' src="bilder/as.png"></a>
+            <a href="https://play.google.com/store"><img alt='GoogleStoreLink' src="bilder/ps.png"></a>
         </div>
     </div>
 </header>
 
     
 <div class="tab" id="problem">
-    <button class="tablinks" onclick="openTab(event, 'theProblem')" >The Problem</button>
-    <button class="tablinks" onclick="openTab(event, 'theSolution')"<a href="#solution">The Solution</a></button>
-    <button class="tablinks" onclick="openTab(event, 'Conclusion')">Conclusion</button>
+    <button class="tablinks" onclick="openTab(event, 'theProblem')" >The Security Issue</button>
+    <button class="tablinks" onclick="openTab(event, 'theSolution')"<a href="#solution"></a>Our Approach to the Issue</button>
+   
 </div>
 
 <div id="theProblem" class="contentTab">
-    <h3> The Problem</h3>
+    <h3>The Challenge Of Securing Your Files</h3>
 
-    <div id="boxIntro">
-        <p>In today's society there is a lot of talk about files and sensitive material being hacked, but not enough on how to prevent it. 
-        This has caused a technological ignorance in the average person on how filestoring and security works. 
-        The average person uses a fair amount of technology in their daily lives, and they put their trust in their products' basic security measures.</p>
+    <div class="boxIntro">
+        <p>With the increase of technology in our lives, the challenges increases as well.  
+            In today's society there is a lot of talk about files being hacked and leaked, yet there is not enough talk about how to prevent it. 
+            Most people dont ever think they'll be a victim of being hacked, yet these people get their devices compromised every day.
+            With the lack of indepth coverage and educating on securing your personal and sensitive files, there has been created a technological ignorance among the majority of people.
+            These people who does not take that extra step for security,  rely solely on their devices' default security measure, and believe thats enough. And it is, in most cases.  
+            <br><br>
+            Though there are cases it is not enough. Over the years, the amount of leaked photographs and files have grown heavily, and most of these could have been prevented with the correct know-how.
+            Basically the problem boils down to a lack of information spread on security. 
+            <br><br>
+        There exists simple methods to ensure your files' security, though there is a lot of people with a preconceived notion that the process is far too advanced and complicated. 
+        Since most devices doesn't have easily accessible functions for providing additional security, most people go on without them. The lack of these easily accessible security functions is where we provide our solution, through encryption.
+
+        
+        </p>
+        <a class="toTop" onclick="toTop()" href="javascript:void(null);"><br>To the top</a>
     </div>
 
     <div class="bilderTab">
-        <img src="bilder/leak.jpg">
+        <img alt='problemBilde' src="bilder/leak.jpg">
+        
     </div>  
 </div>
 
 <div id="theSolution" class="contentTab">
-    <h3>The Solution</h3>
+    <h3>Our Solution</h3>
 
-    <div id="boxIntro">
-        <p id="solution">Our solution provides a safeguard for your files by encrypting them instantly. By encrypting your files, we make it so that they'll only be available to your eyes only, through a password of your choice.</p> 
+    <div class="boxIntro">
+        <p id="solution"> Our goal is through our app to slowly but surely introduce people to the idea of securing and encrypting your files.
+            By inserting an option to encrypt photos on the spot in the camera app, users will gain a familiarity to the process of encryption.
+            We believe the demand for additional security will keep on growing along technological develepment, and by teaching people about encryption and other  security options, hopefully it'll prevent attacks. 
+            <br><br>
+What our app does is it gives the user more security-options when dealing with files and photographs.  We aim to make it as easily accessible as possible, by using the devices' interface and inserting options to encrypt wherever needed.
+Although our app is mainly focused on providing security to photograps, we aim to cover all aspects of cyber-security. With everything from intrusive pop-ups, unsafe links and general malware. 
+When installed you'll be given a list of options which you can choose for security. For example, upon installation, you can go with the default option which is to encrypt every photograph and saved files instantly. You'll chose the encryption-type and password, and chose where to store them.
+Examples of additional options within the app would be to encrypt every file you upload to the cloud or things like ad/pop-up blockers. 
+<br><br>
+People should not fear for their security on their devices, though a healthy skepticism when dealing with technology is always good.
+Our goal is not to limit your user experience, but rather make your user experience safer. By using our app we hope most people will start thinking about general security regarding their choices on the internet, and become more aware of possible threats roaming the internet. 
+
+
+        <br>
+        
+       </p> 
+       <a class="toTop" onclick="toTop()" href="javascript:void(null);"><br>To the top</a>
     </div>
 
     <div class="bilderTab"> 
-    	<img src="bilder/bilde.png">
+    	<img alt='KameraEksempel' src="bilder/bilde.png">
+       <img alt='EncryptEksempel' id="encrypt" width="540px" height="392px" src="bilder/encrypt.png" alt=""/>
     </div>
+     
 </div>
 
-<div id="Conclusion" class="contentTab">
-    <h3>Conclusion</h3>
+
     
-    <div id="boxIntro">
-        <p>Conclusion...</p>
+   
     </div>
 </div> 
 
@@ -88,8 +117,17 @@
     </div>  
 </div></div>
 </footer>
+    
+<script>
+   function toTop()
+   {
+      window.scroll({ top: 800, left: 0, behavior: 'smooth' }); 
+   }
+</script>
+
 
 <script> 
+    // tabs
     function openTab(evt, navn) {
     // variabler
     var i, contentTab, tablinks;
@@ -109,7 +147,10 @@
     // viser tabben man er på, og legger active class på tabben man er på
     document.getElementById(navn).style.display = "block";
     evt.currentTarget.className += " active";
-    scrollTo(0,500);
+    
+    window.scroll({ top: 800, left: 0, behavior: 'smooth' });
+
+   
     } 
 </script>        
 </div>  

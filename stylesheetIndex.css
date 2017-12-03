@@ -5,7 +5,7 @@
 body {
     margin:0;
     padding:0;
-    background-color:#66B9BF;
+    background-color:#336699;
     width:100%;
 }
 
@@ -16,44 +16,52 @@ p {
     font-family: sans-serif;
     font-size:23px;
 }
+p::first-letter {
+    font-size: 200%;
+ 
+}
 
 
-#bilde {
-    position: absolute;   
+@media screen and (min-width:1px) and (max-width:1365px) {
+    #encrypt
+
+{
+   max-width: 33vw;
+    margin-top: 50px;
+    margin-left:110vh;
+    margin-bottom:-35vh;
+}
+}
+@media screen and (min-width:1px) and (max-width:1366px) {
+    #encrypt
+
+{
+   max-width: 33vw;
+    margin-top: 50px;
+    margin-left:110vh;
+    margin-bottom:-35vh;
+}
+}
+
+@media screen and (min-width:1367px) {
+    #encrypt
+
+{
+   max-width: 33vw;
+    margin-top: 50px;
+    margin-left:102vh;
+    margin-bottom:-35vh;
+}
+}
+
+.toTop
+
+{
+    font-size:35px;
+    color:whitesmoke;   
 }
 
    
-.meny {
-    list-style-type: none;
-    background-color: #07889B;
-    text-align:center;
-    padding:0;
-    margin:0;
-    /* Centerer NAV bar om den er position:fixed/absolute =  transform: translate(-50%, 0); */ 
-    color:#F7882F;
-    font-family: sans-serif;
-}
-
-
-.meny li {
-    display:inline;
-    padding:10px 0 5px 30px;
-    padding-right:60px; 
-}
-
-
-.meny a {
-    text-decoration: none;
-    color:white;
-    font-size:50px;
-    font-family: sans-serif; 
-}
-
-
-.meny a:hover {
-    color: black;
-}
-
 
 .tittel {
     font-size:65px;
@@ -66,7 +74,7 @@ p {
 
 
 @media screen and (min-width:1px) and (max-width:1365px) {
-    #boxIntro {
+    .boxIntro {
         display:block;
         width: 700px;
         height:100px;
@@ -77,18 +85,18 @@ p {
 
 
 @media screen and (min-width:1px) and (max-width:1366px) {
-    #boxIntro {
+    .boxIntro {
         display:block;
         width: 700px;
         height:100px;
         float:left;
-        margin: 25px 100px 50px 0;
+        margin: 25px 100px 50px 5%;
     } 
 }
 
 
 @media screen and (min-width:1367px) {
-    #boxIntro {
+    .boxIntro {
         display:block;
         width: 700px;
         height:100px;
@@ -175,8 +183,10 @@ div.tab button.active {
 /* Style the tab content */
 .contentTab {
     display: none;
-    padding: 6px 12px;
+    padding: 6px 12px 40%;
     border-top: none;
+  
+    
 }
 
 
@@ -204,7 +214,7 @@ div.tab button.active {
 
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("bilder/bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("bilder/2.png");
     height: 90vh;
     background-position: center;
     background-size: cover;
@@ -215,7 +225,7 @@ h1 {
     color: #fff;
     font-size: 4vh;
     font-style:black;
-    font-weight: ;
+   
     font-family: 'Lato';
 }
 
@@ -261,7 +271,13 @@ h3 {
     width:220px;
     float: left;
     margin-top: 25px;
+    margin-left:-130px;
+	color: #33ffff;
+   
+	
+
     margin-bottom: 50px;
+
 }
 
 
@@ -309,7 +325,7 @@ h3:after {
 
 .footer-main {
     display: flex;
-    background-color: #07889B;
+    background-color: #003366;
     color: #fff;
     margin:0 auto 0 auto;
 
@@ -317,7 +333,7 @@ h3:after {
 
 
 .fot {
-    padding: 20px;
+    padding: 1px;
 }
 
 
